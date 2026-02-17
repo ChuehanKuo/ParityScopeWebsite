@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1D3A"/>
+      <stop offset="100%" stop-color="#0EA5A0"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle background -->
+  <circle cx="100" cy="100" r="96" fill="url(#bgGrad)"/>
+  <!-- Balance beam (horizontal bar) -->
+  <rect x="55" y="72" width="90" height="4" rx="2" fill="white"/>
+  <!-- Center pillar -->
+  <rect x="97" y="72" width="6" height="50" rx="2" fill="white"/>
+  <!-- Base -->
+  <rect x="80" y="120" width="40" height="5" rx="2.5" fill="white"/>
+  <!-- Left scale pan (bowl shape) -->
+  <line x1="60" y1="72" x2="50" y2="95" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="60" y1="72" x2="70" y2="95" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M46 95 Q60 108 74 95" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Right scale pan (bowl shape) -->
+  <line x1="140" y1="72" x2="130" y2="95" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="140" y1="72" x2="150" y2="95" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M126 95 Q140 108 154 95" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Medical cross in left pan -->
+  <rect x="56" y="82" width="8" height="3" rx="1" fill="white" opacity="0.8"/>
+  <rect x="58.5" y="79.5" width="3" height="8" rx="1" fill="white" opacity="0.8"/>
+  <!-- Heartbeat/EKG line across center -->
+  <polyline points="65,55 80,55 88,42 95,65 102,48 108,55 120,55 135,55" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Small heart at top center -->
+  <path d="M100 145 C100 145 88 138 88 132 C88 128 92 126 96 128 L100 132 L104 128 C108 126 112 128 112 132 C112 138 100 145 100 145Z" fill="white" opacity="0.9"/>
+</svg>
