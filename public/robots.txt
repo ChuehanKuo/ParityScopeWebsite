@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Host
+Host: https://parityscope.com
+
+# Sitemaps
+Sitemap: https://parityscope.com/sitemap.xml
