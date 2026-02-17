@@ -37,6 +37,10 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
     creator: "@parityscope",
   },
+  icons: {
+    icon: "/logo.svg",
+    apple: "/logo.svg",
+  },
   robots: {
     index: true,
     follow: true,

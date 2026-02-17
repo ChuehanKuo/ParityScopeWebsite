@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
 
@@ -44,8 +45,17 @@ export function Footer() {
         <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-6">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Link href="/" className="text-xl font-bold text-white">
-              {siteConfig.name}
+            <Link href="/" className="flex items-center gap-2">
+              <Image
+                src="/logo.svg"
+                alt={`${siteConfig.name} logo`}
+                width={32}
+                height={32}
+                className="h-8 w-8"
+              />
+              <span className="text-xl font-bold text-white">
+                {siteConfig.name}
+              </span>
             </Link>
             <p className="mt-3 text-sm text-light-gray">
               {siteConfig.tagline}
